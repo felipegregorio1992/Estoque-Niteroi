@@ -1,0 +1,23 @@
+{
+  "name": "Estoque Niterói",
+  "short_name": "Estoque",
+  "description": "Controle de estoque da loja de Niterói",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f2b1d",
+  "theme_color": "#0f2b1d",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
