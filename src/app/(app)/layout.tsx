@@ -11,9 +11,9 @@ export default async function AppLayout({
 
   return (
     <ToastProvider>
-      <div className="min-h-screen flex max-[600px]:block">
+      <div className="min-h-screen flex flex-col md:flex-row">
         <Sidebar role={profile.role} email={profile.email} />
-        <main className="flex-1 min-w-0 p-8 max-w-[1450px] mx-auto max-md:p-5">
+        <main className="flex-1 min-w-0 p-8 w-full max-w-[1450px] mx-auto max-md:p-5">
           {children}
         </main>
       </div>
