@@ -87,7 +87,7 @@ export default function UsuariosClient({
 
   return (
     <section className="grid grid-cols-[.9fr_1.1fr] gap-5 max-md:grid-cols-1">
-      <div className="bg-card border border-line rounded-2xl shadow-card p-6">
+      <div className="min-w-0 bg-card border border-line rounded-2xl shadow-card p-6">
         <h2 className="text-xl m-0">Criar usuário</h2>
         <p className="text-[#6f7d71] leading-relaxed">
           O novo usuário entra com o e-mail e a senha definidos aqui.
@@ -167,7 +167,7 @@ export default function UsuariosClient({
         </form>
       </div>
 
-      <div className="bg-card border border-line rounded-2xl shadow-card p-6">
+      <div className="min-w-0 bg-card border border-line rounded-2xl shadow-card p-6">
         <div className="flex justify-between items-center">
           <h2 className="text-xl m-0">Contas ativas</h2>
           <span className="bg-[#e8f3e8] text-[#315a3b] rounded-full px-2 py-1.5 text-xs font-extrabold">
